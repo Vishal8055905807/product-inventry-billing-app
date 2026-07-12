@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 39-product-inventry-billing-app
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sbms2_db
+    username: root
+    password: nitin@N33
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
